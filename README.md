@@ -14,3 +14,30 @@ A Python-based vulnerability scanner that identifies XSS vulnerabilities in web 
 ## 🧪 Example Usage
 ```bash
 python xss_scanner.py --url http://example.com/contact
+```
+
+## 🔧 Requirements
+- Python 3.x
+- requests
+- beautifulsoup4
+- selenium
+- colorama
+- tqdm
+
+## 📂 Output
+```text
+[+] Vulnerable URL: http://example.com/contact
+[+] Payload: <script>alert(1)</script>
+[+] Input Field: message
+```
+
+## 📚 Future Plans
+- Add CSRF detection
+- Auto-exploit builder
+- Save reports in HTML format
+
+## 📜 License
+MIT
+
+## 🙌 Contribute
+Pull requests are welcome! Let's make security better together.
