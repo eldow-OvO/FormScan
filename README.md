@@ -1,4 +1,4 @@
-!FormScan.png
+![alt text](https://github.com/eldow-OvO/FormScan/blob/main/FormScan.png "Logo")
 A Python-based vulnerability scanner that identifies XSS vulnerabilities in web forms by injecting custom payloads.
 
 ## 🚀 Features
