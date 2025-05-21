@@ -1,5 +1,4 @@
-# FormScan
-'FormScan.png'
+!FormScan.png
 A Python-based vulnerability scanner that identifies XSS vulnerabilities in web forms by injecting custom payloads.
 
 ## 🚀 Features
