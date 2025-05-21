@@ -1,5 +1,6 @@
 ![alt text](https://github.com/eldow-OvO/FormScan/blob/main/FormScan.png "Logo")
-A Python-based vulnerability scanner that identifies XSS vulnerabilities in web forms by injecting custom payloads.
+
+FormScan is a Python-based vulnerability scanner that identifies XSS vulnerabilities in web forms by injecting custom payloads.
 
 ## 🚀 Features
 - Auto-detects and scans all forms on a given page
@@ -13,7 +14,7 @@ A Python-based vulnerability scanner that identifies XSS vulnerabilities in web 
 
 ## 🧪 Example Usage
 ```bash
-python xss_scanner.py --url http://example.com/contact
+python formscan.py --url http://example.com/contact
 ```
 
 ## 🔧 Requirements
@@ -23,6 +24,11 @@ python xss_scanner.py --url http://example.com/contact
 - selenium
 - colorama
 - tqdm
+
+Install them with:
+```bash
+pip install -r requirements.txt
+```
 
 ## 📂 Output
 ```text
